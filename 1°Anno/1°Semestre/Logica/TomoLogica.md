@@ -62,7 +62,7 @@ $v ^ * ( \neg P) = 1 - v ^ * (P)$
 |1|0|0|
 |1|1|1|
 
-$v^*(P \wedge Q)=v^*(P)v^*(Q)=min(v^*(P);\ v^*(Q))$
+$v ^ * (P \wedge Q) = v ^ * (P)v ^ * (Q)=min(v ^ *(P);\ v ^ *(Q))$
 
 <b>OR</b>
 
@@ -73,7 +73,7 @@ $v^*(P \wedge Q)=v^*(P)v^*(Q)=min(v^*(P);\ v^*(Q))$
 |1|0|1|
 |1|1|1|
 
-$v^*(P\vee Q)=v^*(P)+v^*(Q)-v^*(P)v^*(Q)=max(v^*(P);\ v^*(Q))$
+$v ^ *(P\vee Q)=v ^ *(P)+v ^ *(Q)-v ^ *(P)v ^ *(Q)=max(v ^ *(P);\ v ^ *(Q))$
 
 <b>SE ... ALLORA ...</b>
 
