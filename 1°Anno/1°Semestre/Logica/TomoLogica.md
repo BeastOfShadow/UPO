@@ -84,7 +84,7 @@ $v ^ *(P\vee Q)=v ^ *(P)+v ^ *(Q)-v ^ *(P)v ^ *(Q)=max(v ^ *(P);\ v ^ *(Q))$
 |1|0|0|
 |1|1|1|
 
-$v^*(P\Rightarrow Q)=1-v^*(P)+v^*(Q)-(1-v^*(P))v^*(Q)=max(v^*(\neg P);\ v^*(Q))$
+$v ^ *(P\Rightarrow Q)=1-v ^ *(P)+v ^ *(Q)-(1-v ^ *(P))v ^ *(Q)=max(v ^ *(\neg P);\ v ^ *(Q))$
 
 <b>$\Leftrightarrow$</b>
 
@@ -95,7 +95,7 @@ $v^*(P\Rightarrow Q)=1-v^*(P)+v^*(Q)-(1-v^*(P))v^*(Q)=max(v^*(\neg P);\ v^*(Q))$
 |1|0|0|
 |1|1|1|
 
-$v^*(P\Leftrightarrow Q)=v^*(P)v^*(Q)+(1-v^*(P)(1-v^*(Q)))$
+$v ^ *(P\Leftrightarrow Q)=v ^ *(P)v ^ *(Q)+(1-v ^ *(P)(1-v ^ *(Q)))$
 
 <b>Connettivi binari</b>
 
@@ -123,11 +123,11 @@ Ci sono tre tipi di enunciati:
 Sia $\Gamma$ un insieme di enunciati, e sia $P$ un enunciato. Si dice che $P$ è conseguenza logica di $\Gamma$ ($\Gamma\models P$) se e solo se ogni assegnazione $v$ che è un modello di $\Gamma$ soddisfa anche $P$.
 
 Più formalmente:
-$\Gamma\models P$ se e solo se per ogni assegnazione $v$, se per ogni $Q\in \Gamma v^*(Q)=1$, allora $v^*(P)=1$.
+$\Gamma \models P$ se e solo se per ogni assegnazione $v$, se per ogni $Q \in \Gamma v ^ *(Q)=1$, allora $v ^ *(P)=1$.
 
 In altre parole, se e solo se ogni assegnazione $v$ che è un modello $\Gamma$ soddisfa anche $P$.
 
-Ad esempio: $\Gamma = \{P\Rightarrow Q;\ Q\Rightarrow\neg R;\ R\}$ , se soddisfa, allora $\Gamma\models\neg P$.
+Ad esempio: $\Gamma = \{P\Rightarrow Q;\ Q\Rightarrow\neg R;\ R \}$ , se soddisfa, allora $\Gamma\models\neg P$.
 |$P$|$Q$|$R$|$P\Rightarrow Q$|$Q\Rightarrow \neg R$|
 |:-:|:-:|:-:|:-:|:-:|
 |0|0|0|1|1|
@@ -143,9 +143,9 @@ Solo la <b style="color: #fc8c03">riga</b> soddisfa tutte le assegnazione in $\G
 
 <b>Teorema</b>
 
-$\Gamma\models P$ se e solo se $\Gamma\cup\{\neg P\}$ è insoddisfacibile.
+$\Gamma \models P$ se e solo se $\Gamma \cup\{ \neg P\}$ è insoddisfacibile.
 
-Esempio: sia $\Gamma =\{P\Rightarrow Q;\ Q\Rightarrow R;\ P\vee\neg Q\}$. 
+Esempio: sia $\Gamma =\{ P\Rightarrow Q;\ Q\Rightarrow R;\ P\vee\neg Q\}$. 
 
 È vero che $\Gamma\models R$? Per rispondere è sufficiente controllare se $\Gamma\cup\{\neg R\}$ è soddisfacibile.
 
@@ -162,13 +162,13 @@ $\Gamma =\{P\Rightarrow Q;\ Q\Rightarrow R;\ P\vee\neg Q;\ \neg R \}$
 |1|1|0|1|0|1|1|
 |1|1|1|1|1|1|0|
 
-$\Gamma\cup\{\neg R\}$ è soddisfacibile. Quindi $\Gamma\nvDash R$
+$\Gamma\cup\{ \neg R\}$ è soddisfacibile. Quindi $\Gamma\nvDash R$
 
 # 2 Ragionamenti
 
 ## 2.1 Ragionamento per assurdo
 
-Per dimostrare che da $\Gamma$ segue $P$ è sufficiente verificare che $\Gamma\cup\{\neg P\}$ è insoddisfacibile. Questo equivale a trovare una contraddizione che sia conseguenza logica di $\Gamma\cup\{\neg P\}$.
+Per dimostrare che da $\Gamma$ segue $P$ è sufficiente verificare che $\Gamma\cup\{ \neg P\}$ è insoddisfacibile. Questo equivale a trovare una contraddizione che sia conseguenza logica di $\Gamma\cup\{ \neg P\}$.
 
 ### 2.1.1 Primo esempio
 Dimostrare l'irrazionalità di $\sqrt 2$.
@@ -177,7 +177,7 @@ Dimostrare l'irrazionalità di $\sqrt 2$.
 - $P$: *$\sqrt 2$ è irrazionale*;
 - $\neg P$: $\sqrt 2$ *è razionale.*
 
-Si trova una contraddizione che è conseguenza logica di $\Gamma\cup\{\neg P\}$.
+Si trova una contraddizione che è conseguenza logica di $\Gamma\cup\{ \neg P\}$.
 
 *Come possiamo dimostrarlo?*
 
@@ -212,7 +212,7 @@ Dato un insieme $A$ di numeri reali, un numero reale $m$ è un minimo per $A$ se
 - $P$: *$(0,\ 1]$ non ha un minimo*;
 - $\neg P$: $(0,\ 1]$ *ha un minimo.*
 
-Si trova una contraddizione che sia conseguenza logica di $\Gamma\cup\{\neg P\}$.
+Si trova una contraddizione che sia conseguenza logica di $\Gamma\cup\{ \neg P\}$.
 
 Supponiamo valga $\neg P$. Allora esiste $m$ tale che:
 
