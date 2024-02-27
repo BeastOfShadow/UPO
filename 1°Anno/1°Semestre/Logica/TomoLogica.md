@@ -34,7 +34,7 @@ Connettivi logici: $\wedge,\ \vee,\ \neg,\ \Rightarrow$.
 
 Estendiamo la funzione $v$ al dominio più ampio $\text{Prop}$ con la funzione
 
-$v^*,v^*: \text{Prop} → \{0,1\}$, definita come segue, nei vari casi.
+$v ^ *, v ^ *: \text{Prop} \rightarrow \{0,1\}$, definita come segue, nei vari casi.
 
 La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per induzione) sulla complessità dell’enunciato: il suo valore di verità è determinato in funzione di quello degli enunciati che lo compongono.
 
@@ -51,7 +51,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 |1   |0        |
 |0   |1        |
 
-$v^*(\neg P)=1-v^*(P)$
+$v^*( \neg P)=1-v^*(P)$
 
 <b>AND</b>
 
@@ -62,7 +62,7 @@ $v^*(\neg P)=1-v^*(P)$
 |1|0|0|
 |1|1|1|
 
-$v^*(P\wedge Q)=v^*(P)v^*(Q)=min(v^*(P);\ v^*(Q))$
+$v^*(P \wedge Q)=v^*(P)v^*(Q)=min(v^*(P);\ v^*(Q))$
 
 <b>OR</b>
 
