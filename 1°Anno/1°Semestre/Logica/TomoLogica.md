@@ -51,7 +51,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 |1   |0        |
 |0   |1        |
 
-$v^*( \neg P)=1-v^*(P)$
+$v ^ * ( \neg P) = 1 - v ^ * (P)$
 
 <b>AND</b>
 
