@@ -44,7 +44,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 
 ## 1.2 Tavole di verità dei connettivi logici
 
-#### NOT
+<b>NOT</b>
 
 | $P$| $\neg P$|
 |:--:|:---:    |
@@ -53,7 +53,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 
 <font size="1">$v^*(\neg P)=1-v^*(P)$</font> 
 
-#### AND
+<b>AND</b>
 
 | $P$| $Q$|$P\wedge Q$|
 |:--:|:---:|:---:|
@@ -64,7 +64,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 
 <font size="1">$v^*(P\wedge Q)=v^*(P)v^*(Q)=min(v^*(P);\ v^*(Q))$</font>
 
-#### OR
+<b>OR</b>
 
 | $P$| $Q$|$P\vee Q$|
 |:--:|:---:|:---:|
@@ -75,7 +75,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 
 <font size="1">$v^*(P\vee Q)=v^*(P)+v^*(Q)-v^*(P)v^*(Q)=max(v^*(P);\ v^*(Q))$</font>
 
-#### SE ... ALLORA ...
+<b>SE ... ALLORA ...</b>
 
 | $P$| $Q$|$P\Rightarrow Q$|
 |:--:|:---:|:---:|
@@ -86,7 +86,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 
 <font size="1">$v^*(P\Rightarrow Q)=1-v^*(P)+v^*(Q)-(1-v^*(P))v^*(Q)=max(v^*(\neg P);\ v^*(Q))$</font>
 
-#### $\Leftrightarrow$
+<b>$\Leftrightarrow$</b>
 
 | $P$| $Q$|$P\Leftrightarrow Q$|
 |:--:|:---:|:---:|
@@ -97,7 +97,7 @@ La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per in
 
 <font size="1">$v^*(P\Leftrightarrow Q)=v^*(P)v^*(Q)+(1-v^*(P)(1-v^*(Q))$</font>
 
-#### Connettivi binari
+<b>Connettivi binari</b>
 
 I connettivi binari corrispondono alle funzioni $f:\{0,1\}*\{0,1\}$ → $\{0,1\}$ che sono $2^4$. Quindi ci sono esattamente 16 connettivi binari. Non è necessario usarli tutti e 16.
 
@@ -141,7 +141,7 @@ Ad esempio: $\Gamma = \{P\Rightarrow Q;\ Q\Rightarrow\neg R;\ R\}$ , se soddisfa
 
 Solo la <b style="color: #fc8c03">riga</b> soddisfa tutte le assegnazione in $\Gamma$, quindi soddisfa $\Gamma\models\neg P$.
 
-#### Teorema
+<b>Teorema</b>
 
 $\Gamma\models P$ se e solo se $\Gamma\cup\{\neg P\}$ è insoddisfacibile.
 
