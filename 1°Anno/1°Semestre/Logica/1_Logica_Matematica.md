@@ -34,7 +34,7 @@ Connettivi logici: $\wedge,\ \vee,\ \neg,\ \Rightarrow$.
 
 Estendiamo la funzione $v$ al dominio più ampio $\text{Prop}$ con la funzione
 
-$v^*,v^*: \text{Prop} → \{0,1\}$, definita come segue, nei vari casi. 
+$v^*,v^*: \text{Prop} → \{0,1\}$, definita come segue, nei vari casi.
 
 La definizione per induzione (#TO-DO: aggiungere il link del ragionamento per induzione) sulla complessità dell’enunciato: il suo valore di verità è determinato in funzione di quello degli enunciati che lo compongono.
 
