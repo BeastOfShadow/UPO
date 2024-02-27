@@ -219,7 +219,7 @@ Supponiamo valga $\neg P$. Allora esiste $m$ tale che:
 1. $m\in A$
 2. $\forall x\in A,\ m\leq x$.
 
-$m\in A$ implica $0<m\leq 1$. In particolare $m>0$. Allora dalle proprietà dei numeri reali discende: $0<\frac m 2<m\leq 1$.
+$m\in A$ implica $0 < m \leq 1$. In particolare $m>0$. Allora dalle proprietà dei numeri reali discende: $0<\frac{m}{2}<m\leq 1$.
 
 Quindi vale: $\frac m 2\in (0,\ 1]$ e anche: $\frac m2<m$.
 
