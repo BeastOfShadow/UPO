@@ -6,7 +6,7 @@ Manuale di sopravvivenza con appunti ed esami corretti.
 
 ## Contributi
 
-[Simone Negro](https://www.github.com/simonenegro), Marco Chiappa, Luca Benetti, [Simone Gattini](https://www.github.com/Ziocash).
+[Simone Negro](https://www.github.com/simonenegro), [Marco Chiappa](https://github.com/Fizzo122001), Luca Benetti, [Simone Gattini](https://www.github.com/Ziocash).
 
 ## 1° anno
 
