@@ -6,7 +6,7 @@ Manuale di sopravvivenza con appunti ed esami corretti.
 
 ## Contributi
 
-Simone Negro, Marco Chiappa, Luca Benetti, Simone.
+Simone Negro, Marco Chiappa, Luca Benetti, @ziocash.
 
 ## 1° anno
 
