@@ -30,7 +30,7 @@ Connettivi logici: $\wedge,\ \vee,\ \neg,\ \Rightarrow$.
 >
 > Interpretazione di un enunciato corrisponde al suo valore di verità.
 > 
-> Assegnazione: $v: \text{VarProp} → \{0, 1\}$.
+> Assegnazione: $v: \text{VarProp} → \{ 0, 1 \}$.
 
 Estendiamo la funzione $v$ al dominio più ampio $\text{Prop}$ con la funzione
 
@@ -191,7 +191,7 @@ Possiamo supporre che $m,n$  non abbiano fattori comuni. Per definizione vale:
 
 $(\frac m n)^2 = \frac{m^2}{n^2}=2$, e quindi $m^2=2n^2$.
 
-Allora $m^2$ deve essere pari, quindi $m$  deve essere pari. Esiste un $k\in\Z$  tale che $m=2k$. Se $m=2k$, allora $m^2=4k^2=2n^2$.
+Allora $m^2$ deve essere pari, quindi $m$  deve essere pari. Esiste un $k\in\mathbb{Z}$  tale che $m=2k$. Se $m=2k$, allora $m^2=4k^2=2n^2$.
 
 Se $4k^2=2n^2$, allora $2k^2=n^2$. Quindi $n^2$ deve essere pari.
 
@@ -229,15 +229,15 @@ Questo contraddice la definizione di $m$. Quindi l’ipotesi che esista un minim
 
 **Premesse**
 
-Sia $X$ l’insieme dei numeri naturali che godono di una certa proprietà. Provare che tutti i numeri naturali godono di quella proprietà equivale a provare che $X=\N$. Per provare questo si può usare il principio di induzione, del quale esistono diverse forme.
+Sia $X$ l’insieme dei numeri naturali che godono di una certa proprietà. Provare che tutti i numeri naturali godono di quella proprietà equivale a provare che $X=\mathbb{N}$. Per provare questo si può usare il principio di induzione, del quale esistono diverse forme.
 
-La forma più nota di induzione è la seguente (dato $X\sube \N$):
+La forma più nota di induzione è la seguente (dato $X\subseteq \mathbb{N}$):
 Se valgono:
 
 1. $0$ (oppure $1$) appartiene a $X$;
 2. Per ogni $n$, se n appartiene a $X$ allora $n+1$ appartiene a $X$.
 
-Allora $X = \N$.
+Allora $X = \mathbb{N}$.
 
 ### 2.1.1 Primo esempio
 
@@ -247,7 +247,7 @@ $1+2+3+...+n=\frac{n(n+1)}{2}$
 
 Proviamo per induzione che vale: $\sum^n_{i=1}i=\frac{n(n+1)}2$.
 
-$X$ è il sottoinsieme di $\N$ in cui la formula è verificata.
+$X$ è il sottoinsieme di $\mathbb{N}$ in cui la formula è verificata.
 
 1. $1$ appartiene a $X$: vero, sostituendo $1$ a $n$ nella formula si ottiene $1$: $\frac{1(1+1)}2=1$ 
    
