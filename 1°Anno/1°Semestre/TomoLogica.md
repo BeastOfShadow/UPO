@@ -23,7 +23,7 @@ Connettivi logici: $\wedge,\ \vee,\ \neg,\ \Rightarrow$.
 >
 > Insieme delle formule ben formate del calcolo proposizionale $\text{Prop}$ è il minimo fra gli insiemi $X$ che godono delle seguenti proprietà:
 > 
-> - ogni variabile proposizionale appartiene a $X$ ($\text{VarProp} \sube \text{Prop}$);
+> - ogni variabile proposizionale appartiene a $X$ ($\text{VarProp} \subseteq \text{Prop}$);
 > - se $P, \ Q$ appartengono a $X$, allora anche $P\wedge Q,\ P\vee Q,\ P\Rightarrow Q$ appartengono a $X$.
 
 > [!NOTE] Semantica
