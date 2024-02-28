@@ -25,7 +25,7 @@ Manuale di sopravvivenza con appunti ed esami corretti.
 
 - 1° semestre:
   - Algoritmi I;
-  - Base di Dati:
+  - [Base di Dati](./2°Anno/1°Semestre/BaseDiDati):
     - Progetto;
     - Fondamenti;
   - Programmazione a Oggetti:
