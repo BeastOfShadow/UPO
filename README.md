@@ -28,9 +28,9 @@ Manuale di sopravvivenza con appunti ed esami corretti.
   - [Base di Dati](./2°Anno/1°Semestre/BaseDiDati):
     - [Progetto](./2°Anno/1°Semestre/BaseDiDati/Progetto) (Striani);
     - Fondamenti;
-  - Programmazione a Oggetti:
+  - [Programmazione a Oggetti](./2°Anno/1°Semestre/ProgrammazioneAOggetti):
     - Progetto Java;
-    - Teoria Java;
+    - [Teoria Java](./2°Anno/1°Semestre/ProgrammazioneAOggetti/Java/TeoriaJava);
     - Esercizi Python;
     - Teoria Python;
   - Sistemi Operativi I;
