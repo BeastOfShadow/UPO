@@ -316,21 +316,21 @@ Tipi:
 
 - **inner join**: join di default, restituisce le righe che soddisfano le condizioni;
 
-![InnerJoin](InnerJoin.png)
+![InnerJoin](./Immagini/InnerJoin.png)
 
 - **natural join**: come la inner join, solo che può essere eseguita solo se gli attributi su cui si applica la condizione hanno lo stesso nome;
 - **outer join**:
   - **right join**:
 
-        ![RightJoin](https://prod-files-secure.s3.us-west-2.amazonaws.com/486a026b-e9e0-46cd-a99c-17f428c1a18f/119e693d-ffd2-445f-ab24-32aae2b50a55/Untitled.png)
+      ![RightJoin](./Immagini/RightJoin.png)
 
   - **left join**:
 
-        ![LeftJoin](https://github.com/SimoneNegro/UPO/blob/main/2%C2%B0Anno/1%C2%B0Semestre/BaseDiDati/Progetto/Immagini/LeftJoin.png)
+      ![LeftJoin](./Immagini/LeftJoin.png)
 
   - **full join**:
 
-        ![FullJoin](https://github.com/SimoneNegro/UPO/blob/main/2%C2%B0Anno/1%C2%B0Semestre/BaseDiDati/Progetto/Immagini/FullJoin.png)
+      ![FullJoin](./Immagini/FullJoin.png)
 
 - **self join**: eseguo una join sulla stessa tabella.
 
