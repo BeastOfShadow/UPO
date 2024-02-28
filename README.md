@@ -11,7 +11,7 @@ Manuale di sopravvivenza con appunti ed esami corretti.
 ## 1° anno
 
 - 1° semestre:
-  - Logica;
+  - [Logica](./1°Anno/1°Semestre/Logica) (Laguzzi);
   - Matematica discreta;
   - Programmazione I;
   - Architettura degli elaboratori I.
@@ -26,7 +26,7 @@ Manuale di sopravvivenza con appunti ed esami corretti.
 - 1° semestre:
   - Algoritmi I;
   - [Base di Dati](./2°Anno/1°Semestre/BaseDiDati):
-    - Progetto;
+    - [Progetto](./2°Anno/1°Semestre/BaseDiDati/Progetto) (Striani);
     - Fondamenti;
   - Programmazione a Oggetti:
     - Progetto Java;
