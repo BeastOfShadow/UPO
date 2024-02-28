@@ -6,13 +6,13 @@ Possibili domande che la Docente potrebbe proporre all'esame.
 
 *Modificatori di visibilità per variabili e metodi di una classe.*
 
-*Se una variabile/metodo è dichiarato: public, private, protected oppure non ha modificatori di visibilità dov’è visibile. Fare un esempio di una porzione di codice corretto e scorretto.*
+*Se una variabile/metodo è dichiarato: public, private, protected oppure non ha modificatori di visibilità dov'è visibile. Fare un esempio di una porzione di codice corretto e scorretto.*
 
 I tipi di modificatori sono:
 
 - **public**: variabili/metodi visibili ovunque: sia all’interno della classe che al di fuori di essa;
 - **private**: variabili/metodi visibili sono all’interno della propria classe;
-- **ptotected**: variabili/metodi visibili all’interno della stessa classe e nelle sue classi derivate (sottoclassi) nello stesso package;
+- **protected**: variabili/metodi visibili all’interno della stessa classe e nelle sue classi derivate (sottoclassi) nello stesso package;
 - **senza modificatori** di visibilità: variabili/metodi visibili all’interno della stessa classe e nelle classe dello stesso package.
 
 Esempio corretto:
@@ -260,7 +260,7 @@ public class Outer {
 
 *A cosa servono i parametri di tipo e quali costrutti Java possono avere parametri di tipo. Fare un esempio.*
 
-I **parametri di tipo** (generici) consentono di creare classi, interfacce e metodi che **operano** **su tipi** specifici **senza specificare il tipo** effettivo in anticipo. Sono ampliamente utilizzati nelle collezioni Java come ArrayList, HashMap, ecc.
+I **parametri di tipo** (generici) consentono di creare classi, interfacce e metodi che **operano** **su tipi** specifici **senza specificare il tipo** effettivo in anticipo. Sono ampiamente utilizzati nelle collezioni Java come ArrayList, HashMap, ecc.
 
 ```java
 public class GenericClass<T> {
