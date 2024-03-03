@@ -1,8 +1,8 @@
 # Breve tutorial
 
-Se si vuole scaricare la cartella contenente gli esercizi, clicca qui.
+Se si vuole scaricare solo la cartella contenente gli esercizi, clicca [qui](https://github.com/SimoneNegro/UPO_ProgrammazioneII).
 
-## Contenuto cartella
+## Contenuto della cartella
 
 La cartella contiene i seguenti file:
 
