@@ -132,3 +132,57 @@ $C\ 9\ \rightarrow C9_{(16)}$
 ---
 
 Viceversa, per convertire basta trasformare ogni cifra in binario a $4$ bit.
+
+### 2.6 Conversioni in virgola fissa
+
+La conversione dei numeri frazionari deve essere fatta separatamente dalla parte intera.
+
+Dobbiamo tener conto del fatto che il procedimento di conversione potrebbe andare avanti all'infinito.
+
+In questo caso, quando effettuiamo la conversione stabiliamo un numero massimo di bit per cui rappresentare questo numero.
+
+#### 2.6.1 Conversione da base 10 a base 2 e viceversa
+
+Per eseguire la conversione da base $10$ a base $2$, prima converto la parte intera, come visto nella sezione 2.1 conversioni, poi converto la parte frazionaria:
+
+1. moltiplico per $2$ la parte frazionaria;
+2. vedo se la parte intera è $0$ o $1$;
+3. mi annoto il valore della parte intera;
+4. continuo il procedimento fino quando il risultato è $0.0$ o quando termino il
+numero di bit a mia disposizione;
+5. scrivo la parte intera dal basso verso l’alto.
+
+Ad esempio:
+$0, 3125_{(10)} \rightarrow ?_{(2)}$
+
+Per quanto riguarda la conversione della parte intera, non è possibile effettuarla, siccome lo $0$ sarà sempre $0$. Per quanto riguarda la conversione della parte frazionaria:
+
+$0, 3125 ∗ 2 = 0, 625$  bit $0$;
+
+$0, 625 ∗ 2 = 1, 25$  bit $1$;
+
+$0, 25 ∗ 2 = 0, 5$  bit $0$;
+
+$0, 5 ∗ 2 = 1, 0$  bit $1$;
+
+$0 ∗ 2 = 0$  bit $0$.
+
+Il risultato della conversione sarà $0, 3125_{(10)} = 0, 0101_{(2)}$.
+
+---
+
+Viceversa, per convertire un numero a base 2 a base 10, devo moltiplicare per 2 elevato a numeri negativi in base alla posizione.
+
+Quindi sarà:  $0/1 ∗ 10^{−1}, 0/1 ∗ 10^{−2} \dots$
+
+Ad esempio: $0, 1101_{(2)} \rightarrow ?_{(10)}$
+
+$1 ∗ 10^{−1} + 1 ∗ 10^{−2} + 0 ∗ 10^{−3} + 1 ∗ 10^{−4} = 0, 8125_{(10)}$
+
+#### 2.6.2 Conversione da base 2 a base 8/16 e viceversa
+
+Converto sempre con i raggruppamenti a $3$/$4$ bit, sia per quanto riguarda la parte intera, sia per quanto riguarda la parte decimale.
+
+---
+
+Viceversa, converto i numeri in base $8$/$16$ in base $2$ convertendo i numeri in bit raggruppati in $3$/$4$ bit.
