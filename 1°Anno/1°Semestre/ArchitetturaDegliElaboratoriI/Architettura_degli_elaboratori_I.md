@@ -50,7 +50,7 @@ Questo ci permette così di tradurre il linguaggio ad alto livello in linguaggio
 
 #### 2.5.1 Da base r a base 10
 
-Si utilizza la seguente formula generica per convertire un numero in base $r$ in un numero in base 10: $b_{n} * r^{n-1} + b_{n-1} * r^{n-2} + ... + b_{n} * r^{0}$.
+Si utilizza la seguente formula generica per convertire un numero in base $r$ in un numero in base $10$: $b_{n} * r^{n-1} + b_{n-1} * r^{n-2} + ... + b_{n} * r^{0}$.
 
 ---
 
@@ -90,10 +90,10 @@ Ci sono due metodi:
     $110001_{(2)} \rightarrow$ posizione $1$: $5, 4, 0$.
 
 - secondo metodo:
-    1. se il numero è dispari sottraggo $1$, mi annoto il resto e divido il numero per $2$;
-    2. se il numero è pari mi segno il numero $0$ e divido il numero per $2$;
-    3. ripeto operazione fino allo $0$;
-    4. riporto i resti dal basso verso l’alto.
+  1. se il numero è dispari sottraggo $1$, mi annoto il resto e divido il numero per $2$;
+  2. se il numero è pari mi segno il numero $0$ e divido il numero per $2$;
+  3. ripeto operazione fino allo $0$;
+  4. riporto i resti dal basso verso l’alto.
   - ad esempio:
 
     ![Conversione](https://prod-files-secure.s3.us-west-2.amazonaws.com/486a026b-e9e0-46cd-a99c-17f428c1a18f/8bc5d2b7-18df-43bb-bf99-99120adf5e03/Untitled.png)
