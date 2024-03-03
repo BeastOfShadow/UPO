@@ -18,7 +18,9 @@ Manuale di sopravvivenza con appunti ed esami corretti.
 - 2° semestre:
   - Tecniche di comunicazione e scrittura;
   - Fisica;
-  - Programmazione II;
+  - Programmazione II:
+    - [Teoria](https://github.com/SimoneNegro/UPO/tree/main/1%C2%B0Anno/2%C2%B0Semestre/PogrammazioneII/TeoriaProgrammazioneII);
+    - [Esercizi](https://github.com/SimoneNegro/UPO/tree/main/1%C2%B0Anno/2%C2%B0Semestre/PogrammazioneII/EserciziProgrammazioneII);
   - Architettura degli elaboratori II.
   
 ## 2° anno
