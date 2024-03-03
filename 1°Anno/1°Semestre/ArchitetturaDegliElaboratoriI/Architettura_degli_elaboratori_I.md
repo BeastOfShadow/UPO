@@ -96,7 +96,7 @@ Ci sono due metodi:
   4. riporto i resti dal basso verso l’alto.
   - ad esempio:
 
-    ![Conversione](./Immagini/ConversioneBinaria.png)
+    ![ConversioneBinaria](./Immagini/ConversioneBinaria.png)
 
     $49_{(10)}=110001_{(2)}$
 
