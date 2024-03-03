@@ -141,7 +141,7 @@ Dobbiamo tener conto del fatto che il procedimento di conversione potrebbe andar
 
 In questo caso, quando effettuiamo la conversione stabiliamo un numero massimo di bit per cui rappresentare questo numero.
 
-#### 2.6.1 Conversione da base 10 a base 2 e viceversa
+#### 2.6.1 Conversione da base 10 a base 2
 
 Per eseguire la conversione da base $10$ a base $2$, prima converto la parte intera, come visto nella sezione 2.1 conversioni, poi converto la parte frazionaria:
 
@@ -179,7 +179,7 @@ Ad esempio: $0, 1101_{(2)} \rightarrow ?_{(10)}$
 
 $1 ∗ 10^{−1} + 1 ∗ 10^{−2} + 0 ∗ 10^{−3} + 1 ∗ 10^{−4} = 0, 8125_{(10)}$
 
-#### 2.6.2 Conversione da base 2 a base 8/16 e viceversa
+#### 2.6.2 Conversione da base 2 a base 8/16
 
 Converto sempre con i raggruppamenti a $3/4$ bit, sia per quanto riguarda la parte intera, sia per quanto riguarda la parte decimale.
 
