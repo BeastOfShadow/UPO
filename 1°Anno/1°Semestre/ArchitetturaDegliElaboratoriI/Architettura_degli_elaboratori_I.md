@@ -30,7 +30,7 @@ Ad esempio: $51_{(8)}=5 * 8^{1}+1 * 8^{0}=41_{(10)}$
 
 Cifre utilizzate: $\{ 0,1,2,3,4,5,6,7,8,9 \}$.
 
-Formula generale: $V(N_{(r)})= \sum_{i} ^ {n-1} = -m^{r^{i}d_{I}}$
+Formula generale: $V(N_{(r)})= \sum^{n-1}_{i}  = -m^{r^{i}d_{I}}$
 
 Ad esempio: $210_{(10)}=2 * 10^{2}+1 * 10+0 * 10^{0}$
 
