@@ -181,8 +181,8 @@ $1 ∗ 10^{−1} + 1 ∗ 10^{−2} + 0 ∗ 10^{−3} + 1 ∗ 10^{−4} = 0, 8125
 
 #### 2.6.2 Conversione da base 2 a base 8/16 e viceversa
 
-Converto sempre con i raggruppamenti a $3$/$4$ bit, sia per quanto riguarda la parte intera, sia per quanto riguarda la parte decimale.
+Converto sempre con i raggruppamenti a $3/4$ bit, sia per quanto riguarda la parte intera, sia per quanto riguarda la parte decimale.
 
 ---
 
-Viceversa, converto i numeri in base $8$/$16$ in base $2$ convertendo i numeri in bit raggruppati in $3$/$4$ bit.
+Viceversa, converto i numeri in base $8/16$ in base $2$ convertendo i numeri in bit raggruppati in $3/4$ bit.
