@@ -116,7 +116,7 @@ Gli esponenti sono presi in base alla posizione degli $1$.
 
 $011|001|001_{(2)} \rightarrow$ raggruppo i numeri binari a $3$ a $3$ e converto in base $8$:
 
-  3      1       1       → $311_{(8)}$
+$3\ 1\ 1\ \rightarrow 311_{(8)}$
 
 ---
 
@@ -126,7 +126,7 @@ Viceversa, per convertire basta trasformare ogni cifra in binario a $3$ bit.
 
 $1100|1001_{(2)} \rightarrow$ raggruppo i numeri binari a $4$ a $4$ e converto in base $16$:
 
-   C        9         → $C9_{(16)}$
+$C\ 9\ \rightarrow C9_{(16)}$
 
 ---
 
