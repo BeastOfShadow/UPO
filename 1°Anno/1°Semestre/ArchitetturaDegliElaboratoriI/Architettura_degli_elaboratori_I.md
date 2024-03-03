@@ -14,7 +14,7 @@ La rappresentazione più importante è quella **binaria**, ma vedremo anche la b
 
 Cifre utilizzate: $\{ 0, 1 \}$.
 
-Formula generale: $b_{n}*2^{n-1}+b_{n-1}*2^{n-2}+ \dots +b_n*2^{0}$
+Formula generale: $b_{n}*2^{n-1}+b_{n-1}*2^{n-2}+ \dots +b_{n}*2^{0}$
 
 Ad esempio: $11001_{(2)} = 1*2^{4}+1*2^{3}+0*2^{2}+0*2^{1}+1*2^{0} = 25_{(10)}$
 
