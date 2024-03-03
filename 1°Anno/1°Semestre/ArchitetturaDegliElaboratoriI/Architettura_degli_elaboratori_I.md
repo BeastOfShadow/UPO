@@ -94,11 +94,12 @@ Ci sono due metodi:
   2. se il numero è pari mi segno il numero $0$ e divido il numero per $2$;
   3. ripeto operazione fino allo $0$;
   4. riporto i resti dal basso verso l’alto.
-  - ad esempio:
 
-    ![ConversioneBinaria](./Immagini/ConversioneBinaria.png)
+ad esempio:
 
-    $49_{(10)}=110001_{(2)}$
+![ConversioneBinaria](./Immagini/ConversioneBinaria.png)
+
+$49_{(10)}=110001_{(2)}$
 
 ---
 
