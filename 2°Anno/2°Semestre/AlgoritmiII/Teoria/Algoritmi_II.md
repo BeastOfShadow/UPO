@@ -27,8 +27,10 @@ La **prima distinzione** tra i grafi è se hanno **relazioni**:
 ### 1.2 Incidenza e grado grafo
 
 > ![IMPORTANT] Arco incidente
-> Sia $(v,w)$ o $\langle v,w\rangle$
 >
+> Sia l'arco $(v,w)$ o $\langle v,w\rangle \in E$, è incidente sui vertici $v$ e $w$.
+
+![Grafi_incidenti](./Immagini/Grafi_incidenti.png)
 
 • I concetti di incidenza ed adiacenza (grado di un arco)
 • Cos’è un cammino (lunghezza di un cammino, cammini semplici)
