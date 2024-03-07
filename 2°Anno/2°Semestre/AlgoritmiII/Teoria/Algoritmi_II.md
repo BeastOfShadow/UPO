@@ -23,7 +23,13 @@ La **prima distinzione** tra i grafi è se hanno **relazioni**:
 - **asimmetriche**: grafo orientato:
 
 ![Grafo_orientato](./Immagini/Grafo_orientato.png)
-• Differenza tra grafi orientati e non orientati
+
+### 1.2 Incidenza e grado grafo
+
+> ![IMPORTANT] Arco incidente
+> Sia $(v,w)$ o $\langle v,w\rangle$
+>
+
 • I concetti di incidenza ed adiacenza (grado di un arco)
 • Cos’è un cammino (lunghezza di un cammino, cammini semplici)
 • Grafo pesato
