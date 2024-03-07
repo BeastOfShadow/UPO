@@ -10,15 +10,18 @@
 
 Ad esempio: $V=\{\text{persone}\}$, $E=\{\text{coppie di persone che si conoscono}\}$.
 
-![Esempio_grafo](./Immagini/Esempio_grafo.png)
+![Esempio_grafo](./Immagini/Esempio_grafo.png){width=400px height=200px}
 
 ### 1.1 Grafi orientati e non orientati
 
 La **prima distinzione** tra i grafi è se hanno **relazioni**:
 
 - **simmetriche**, quindi un grafo non orientato:
+  
 ![Grafo_non_orientato](./Immagini/Grafo_non_orientato.png)
+
 - **asimmetriche**: grafo orientato:
+
 ![Grafo_orientato](./Immagini/Grafo_orientato.png)
 • Differenza tra grafi orientati e non orientati
 • I concetti di incidenza ed adiacenza (grado di un arco)
