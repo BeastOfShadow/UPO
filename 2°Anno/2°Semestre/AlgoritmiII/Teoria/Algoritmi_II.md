@@ -26,11 +26,19 @@ La **prima distinzione** tra i grafi è se hanno **relazioni**:
 
 ### 1.2 Incidenza e grado grafo
 
-> ![IMPORTANT] Arco incidente
+> [!IMPORTANT] Arco incidente
 >
 > Sia l'arco $(v,w)$ o $\langle v,w\rangle \in E$, è incidente sui vertici $v$ e $w$.
 
 ![Grafi_incidenti](./Immagini/Grafi_incidenti.png)
+
+> [!IMPORTANT] Grado
+>
+> Il grado di un vertice $v$ (o $\delta (v)$) è dato dal **numero** di **archi** ad esso **incidenti**.
+>
+> Se il grafo è **orientato**, devo distinguere tra grado entrante $\delta_{in} (v)$ e grado uscente $\delta_{out} (v)$, poi sommo tutti i gradi del vertice $v$.
+
+![Grado_vertici](./Immagini/Grado_vertici.png)
 
 • I concetti di incidenza ed adiacenza (grado di un arco)
 • Cos’è un cammino (lunghezza di un cammino, cammini semplici)
