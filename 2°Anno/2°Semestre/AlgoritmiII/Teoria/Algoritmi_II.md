@@ -10,7 +10,7 @@
 
 Ad esempio: $V=\{\text{persone}\}$, $E=\{\text{coppie di persone che si conoscono}\}$.
 
-![Esempio_grafo](./Immagini/Esempio_grafo.png){width=400px height=200px}
+![Esempio_grafo](./Immagini/Esempio_grafo.png)
 
 ### 1.1 Grafi orientati e non orientati
 
